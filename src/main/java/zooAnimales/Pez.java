@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Pez extends Animal{
-  private static ArrayList<Pez> listado;
+  private static ArrayList<Pez> listado = new ArrayList<>();
   public static int salmones;
   public static int bacalaos;
   private String colorEscamas;
   private int cantidadAletas;
 
   public Pez(){
+    this("", 0, "", "", "", 0);
     listado.add(this);
   }
 
@@ -31,13 +32,13 @@ public class Pez extends Animal{
 
   public static Pez crearSalmon(String nombre, int edad, String genero){
     Pez salmon = new Pez(nombre, edad, "oceano", genero, "rojas", 6);
-    salmones += 1;
+    salmones ++;
     return salmon;
   }
 
   public static Pez crearBacalao(String nombre, int edad, String genero){
     Pez bacalao = new Pez(nombre, edad, "oceano", genero, "gris", 6);
-    bacalaos += 1;
+    bacalaos ++;
     return bacalao;
   }
 
