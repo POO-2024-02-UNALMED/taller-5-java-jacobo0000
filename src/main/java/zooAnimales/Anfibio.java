@@ -11,6 +11,7 @@ public class Anfibio extends Animal {
   private Boolean venenoso;
 
   public Anfibio(){
+    this("", 0, "", "", "", true);
     listado.add(this);
   }
 

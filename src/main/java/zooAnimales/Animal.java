@@ -11,6 +11,7 @@ public class Animal {
   private Zona zona;
   
   public Animal(){
+    this("", 0, "", "");
     totalAnimales += 1;
   }
 
