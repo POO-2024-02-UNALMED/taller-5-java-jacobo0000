@@ -19,7 +19,7 @@ public class Anfibio extends Animal {
     super(nombre,edad,habitat,genero);
     this.colorPiel = colorPiel;
     this.venenoso = venenoso;
-    listado.add(this);
+    listado.add(-1, this);
   }
 
   public String movimiento(){
