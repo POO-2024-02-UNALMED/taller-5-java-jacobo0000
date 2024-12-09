@@ -28,13 +28,13 @@ public class Anfibio extends Animal {
 
   public static Anfibio crearRana(String nombre, int edad, String genero){
     Anfibio rana = new Anfibio(nombre, edad, "selva", genero, "rojo", true);
-    ranas++;
+    ranas+=1;
     return rana;
   }
 
   public static Anfibio crearSalamandra(String nombre, int edad, String genero){
     Anfibio salamandra = new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
-    salamandras++;
+    salamandras+=1;
     return salamandra;
   }
 
