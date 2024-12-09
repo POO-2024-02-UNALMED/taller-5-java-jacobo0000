@@ -14,7 +14,8 @@ public class Pez extends Animal{
     listado.add(this);
   }
 
-  public Pez(String nombre, int edad, String habitad, String genero, String colorEscamas, int cantidadAletas){
+  public Pez(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas){
+    super(nombre, edad, habitat, genero);
     this.colorEscamas = colorEscamas;
     this.cantidadAletas = cantidadAletas;
     listado.add(this);
