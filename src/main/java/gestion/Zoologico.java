@@ -32,7 +32,7 @@ public class Zoologico {
     return nombre;
   }
 
-  public String getUbicación(){
+  public String getUbicacion(){
     return ubicacion;
   }
 
@@ -44,7 +44,7 @@ public class Zoologico {
     this.nombre = nombre;
   }
 
-  public void setUbicación(String ubicacion){
+  public void setUbicacion(String ubicacion){
     this.ubicacion = ubicacion;
   }
 }
