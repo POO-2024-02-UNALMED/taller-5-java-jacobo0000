@@ -5,8 +5,8 @@ import java.util.Arrays;
 
 public class Mamifero extends Animal {
   private static ArrayList<Mamifero> listado = new ArrayList<>();
-  public static int caballos;
-  public static int leones;
+  public static int caballos = 0;
+  public static int leones = 0;
   private Boolean pelaje;
   private int patas;
 

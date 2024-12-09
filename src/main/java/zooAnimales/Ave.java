@@ -5,8 +5,8 @@ import java.util.Arrays;
 
 public class Ave extends Animal{
   private static ArrayList<Ave> listado = new ArrayList<>();
-  public static int halcones;
-  public static int aguilas;
+  public static int halcones = 0;
+  public static int aguilas = 0;
   private String colorPlumas;
 
   public Ave(){

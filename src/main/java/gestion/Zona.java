@@ -7,10 +7,10 @@ import java.util.Arrays;
 public class Zona {
   private String nombre;
   private Zoologico zoo;
-  private static ArrayList<Animal> animales;
+  private static ArrayList<Animal> animales = new ArrayList<>();
 
   public Zona(){
-
+    this("", null)
   }
 
   public Zona(String nombre, Zoologico zoo){
