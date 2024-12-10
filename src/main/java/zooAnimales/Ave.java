@@ -24,7 +24,7 @@ public class Ave extends Animal{
     return "volar";
   }
 
-  public int cantidadAves(){
+  public static int cantidadAves(){
     return listado.size();
   }
 
