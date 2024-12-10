@@ -32,13 +32,13 @@ public class Pez extends Animal{
 
   public static Pez crearSalmon(String nombre, int edad, String genero){
     Pez salmon = new Pez(nombre, edad, "oceano", genero, "rojas", 6);
-    salmones ++;
+    salmones++;
     return salmon;
   }
 
   public static Pez crearBacalao(String nombre, int edad, String genero){
     Pez bacalao = new Pez(nombre, edad, "oceano", genero, "gris", 6);
-    bacalaos ++;
+    bacalaos++;
     return bacalao;
   }
 

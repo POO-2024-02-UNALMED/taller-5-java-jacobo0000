@@ -30,7 +30,11 @@ public class Animal {
     int totalPeces = Pez.getListado().size();
     int totalAnfibios = Anfibio.getListado().size();
 
-    return "Mamiferos: " + totalMamiferos + "Aves: " + totalAves + "Reptiles: " + totalReptiles + "Peces: " + totalPeces + "Anfibios:  " + totalAnfibios ;
+    return "Mamiferos: " + totalMamiferos +"\n" + 
+				"Aves: " + totalAves+ "\n" + 
+				"Reptiles: " + totalReptiles+"\n" + 
+				"Peces: " + totalPeces +"\n" + 
+				"Anfibios: " + totalAnfibios;
 
   }
 
