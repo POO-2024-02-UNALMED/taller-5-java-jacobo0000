@@ -11,7 +11,6 @@ public class Ave extends Animal{
 
   public Ave(){
     this("", 0, "", "", "");
-    listado.add(this);
   }
 
   public Ave(String nombre, int edad, String habitat, String genero, String colorPlumas){

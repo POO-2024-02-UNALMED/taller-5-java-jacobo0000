@@ -12,8 +12,6 @@ public class Reptil extends Animal{
 
   public Reptil(){
     this("", 0, "", "", "", 0);
-    listado.add(this);
-
   }
 
   public Reptil(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola){
